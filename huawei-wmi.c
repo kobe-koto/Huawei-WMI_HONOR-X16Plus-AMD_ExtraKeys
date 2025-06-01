@@ -126,6 +126,7 @@ static const struct key_entry huawei_wmi_keymap[] = {
 	// Huawei |M| key
 	{ KE_KEY,     0x28a,              { KEY_CONTROLPANEL } },
 	// Sidebar (notifications) key
+	// Note: 0x28b is also used for the Honor YOYO Smart Assistant key
 	{ KE_KEY,     0x28b,              { KEY_NOTIFICATION_CENTER } },
 	{ KE_KEY,     0x28e,              { KEY_SELECTIVE_SCREENSHOT } },
 	// Keyboard backlight (F-keys)
